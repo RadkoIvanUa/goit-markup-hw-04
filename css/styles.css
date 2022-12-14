@@ -205,6 +205,11 @@ h3 {
 /*_____HERO____ */
 
 .hero {
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-image.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 1600px;
   background-color: var(--dark-color);
   padding: 192px 0;
 
@@ -247,6 +252,13 @@ h3 {
 
 .benefits-item:not(:last-child) {
   margin-right: 24px;
+}
+
+.benefits-icon {
+  width: 64px;
+  height: 64px;
+  background-color: var(--light-color);
+  padding: 24px 100px;
 }
 
 /*____SERVISES SECTION____*/
