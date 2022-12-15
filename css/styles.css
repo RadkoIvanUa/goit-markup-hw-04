@@ -43,6 +43,7 @@ h3 {
 
 .link {
   text-decoration: none;
+  color: var(--text-color);
 }
 .link:active,
 .link:visited {
