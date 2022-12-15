@@ -212,7 +212,7 @@ h3 {
   max-width: 1440px;
   background-color: var(--dark-color);
   padding: 192px 0;
-
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -265,8 +265,15 @@ h3 {
 
 .benefits-header {
   background-color: var(--light-color);
-  padding: 24px 100px;
   margin-bottom: 8px;
+}
+
+.benefits-link {
+  display: flex;
+  width: 264px;
+  height: 112px;
+  align-items: center;
+  justify-content: center;
 }
 
 .benefits-icon {
@@ -324,16 +331,16 @@ h3 {
 }
 
 .social-item {
+}
+
+.social-link {
   background-color: var(--primary-brand-color);
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  padding: 12px;
-}
-
-.social-link {
-  width: 100%;
-  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-icon {
@@ -351,15 +358,19 @@ h3 {
   justify-content: center;
 }
 
-.customers-item {
+.customer-link {
   border: 1px solid var(--subtle-text-color);
   border-radius: 4px;
-  padding: 16px 32px;
   color: var(--subtle-text-color);
+  display: flex;
+  width: 168px;
+  height: 88px;
+  justify-content: center;
+  align-items: center;
 }
 
-.customers-item:hover,
-.contacts-item:focus {
+.customer-link:hover,
+.customer-link:focus {
   color: var(--primary-brand-color);
   border: 1px solid var(--primary-brand-color);
 }
@@ -473,12 +484,12 @@ h3 {
   margin-left: 16px;
 }
 
-.footer-social-list .social-item:hover,
-.footer-social-list .social-item:focus {
+.footer-social-list .social-link:hover,
+.footer-social-list .social-link:focus {
   background-color: var(--success-color);
 }
 
-.footer-social-list .social-item {
+.footer-social-list .social-link {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
